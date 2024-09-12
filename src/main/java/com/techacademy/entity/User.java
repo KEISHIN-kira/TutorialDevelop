@@ -28,4 +28,9 @@ public class User {
 	@Column(length=2)
 	@Enumerated (EnumType.STRING)
 	private Gender gender;
+	
+	private Integer age;
+	
+	@Column (length = 50)
+	private String email;
 }
